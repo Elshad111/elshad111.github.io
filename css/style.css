@@ -154,7 +154,7 @@ body{
     cursor: pointer;
 	color: #a4aead;
 	padding: 5px 15px;
-    letter-spacing: .25px;
+    letter-spacing: .5px;
     -webkit-transition: border .3s ease-out, color .3s ease-out;
     transition: border .3s ease-out, color .3s ease-out;
 	border: 2px solid transparent;
@@ -256,12 +256,13 @@ body{
 .about{
 	width: 100%;
     color: #8d8f92;
+	border-bottom: 1px solid #dde1e4;
 }
 
 .about_content{
 	max-width: 1170px;
     margin: 0 auto;
-	padding: 6.250em 0;
+	padding: 6.250em 0 5em 0;
 }
 
 .about_title{
@@ -270,7 +271,7 @@ body{
 
 .about_title h3{
 	position: relative;
-	font-weight: 500;
+	font-weight: 400;
     font-size: 36px;
     color: #292f36;
     text-transform: uppercase;   
@@ -370,15 +371,90 @@ body{
 	line-height: 20px;
 }
 
+.team{
+	width: 100%;
+    color: #8d8f92;
+}
 
+.team_content{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 6.250em 0;
+}
 
+.team_title{
+	margin-top: 2em;
+	margin-bottom: 3.75em;
+}
 
+.team_title h3{
+	position: relative;
+    font-weight: 400;
+    font-size: 36px;
+    color: #292f36;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
 
+.team_title h3:before{
+	content: "";
+    display: block;
+    width: 10px;
+    height: 100%;
+    background: #e1e6ea;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
 
+.team-items{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -1.5%;
+}
 
+.team-item{
+	width: 22%;
+    min-height: 30px;
+    margin: 1.5%;
+}
 
+.team-item-img{
+	width: 100%;
+    line-height: 0;
+}
 
+.team-item-img img{
+	max-width: 100%;
+    height: auto;
+}
 
+.team-item-info{
+    width: 100%;
+    background: #e1e6ea;
+    padding: 20px;
+}
+
+.team-item-name{
+	margin-bottom: 10px;
+}
+
+.team-item-name p{
+	font-size: 16px;
+	color: #292f36;
+	text-transform: uppercase;
+}
+
+.team-item-position p{
+	font-size: 14px;
+	color: #8d8f92;
+}
+
+.work{
+	width: 100%;
+    background: #3a454d;
+}
 
 
 

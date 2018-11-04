@@ -76,7 +76,6 @@ ol {
 body{
     position: relative;
     width: 100%;
-    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -84,6 +83,7 @@ body{
 	width: 100%;
 	position: relative;
 	min-height: 100vh;
+	background: #fff;
 }
 
 .menu{
@@ -172,7 +172,6 @@ body{
 
 .header{
     width: 100%;
-    overflow-x: hidden;
     color: #fff;
 }
 
@@ -254,11 +253,35 @@ body{
 	background: #23b7a4;
 }
 
+.about{
+	width: 100%;
+    color: #fff;
+}
 
+.about-content{
+	max-width: 1170px;
+    margin: 0 auto;
+	padding: 6.250em 0;
+}
 
+.about-title{
+	margin-bottom: 3.75em;
+}
 
+.about-title h3{
+	font-weight: 500;
+	font-size: 36px;
+	color: #292f36;
+	text-transform: uppercase;
+}
 
-
+.about-title h3:before{
+	content: "";
+    display: block;
+    width: 20px;
+    height: 36px;
+    background: #e1e6ea;
+}
 
 
 

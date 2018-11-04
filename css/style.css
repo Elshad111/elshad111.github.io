@@ -158,22 +158,101 @@ body{
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
 	border: 2px solid transparent;
+	border-radius: 3px;
+}
+
+.menu_link_active{
+	border: 2px solid #23b7a4;
+	color: #23b7a4;
 }
 
 .menu_link:hover{
     border: 2px solid #5b6168;
-	border-radius: 3px;
 }
 
+.header{
+    width: 100%;
+    overflow-x: hidden;
+    color: #fff;
+}
 
+.slider{
+	background: url(../img/picture.png);
+    background-color: #3a454d;
+    color: #fff;
+    width: 100%;
+    padding: 13em 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+}
 
+.slider_content{
+	max-width: 1170px;
+	margin: 0 auto;
+	color: #fff;
+}
 
+.slider_content_text{
+	float: left;
+	max-width: 600px;
+}
 
+.slider_content_title{
+	margin-bottom: 20px;
+}
 
+.slider_content_title h2{
+	font-size: 32px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+}
 
+.slider_content_description{
+	line-height: 1.56em;
+}
 
+.slider_content_description p{
+	font-size: 16px;
+	color: #ccd0d7;
+}
 
+.slider_content_btn{
+	margin-top: 2.5em;
+}
 
+.viev_more, .video_tour{
+	color: #fff;
+	font-size: 14px;
+	border-radius: 3px;
+	border: 2px solid #fff;
+	padding: 10px 20px;
+	-webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.viev_more{
+	border: 2px solid #23b7a4;
+	background: #23b7a4;
+	margin-right: 10px;
+}
+
+.viev_more:hover{
+	background: #28d7c0;
+	border: 2px solid #28d7c0;
+}
+
+.video_tour:hover{
+	border: 2px solid #23b7a4;
+	background: #23b7a4;
+}
 
 
 

@@ -534,6 +534,182 @@ body{
 	background: #fff;
 }
 
+.services{
+	width: 100%;
+	color: #8d8f92;
+}
+
+.services_content{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 6.250em 0; 
+}
+
+.services_title{
+	margin-bottom: 3.75em;
+}
+
+.services_title h3{
+	position: relative;
+    font-weight: 400;
+    font-size: 36px;
+    color: #292f36;
+    text-transform: uppercase;
+    margin-left: 20px;	
+}
+
+.services_title h3:before{
+	content: "";
+    display: block;
+    width: 10px;
+    height: 100%;
+    background: #e1e6ea;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.services_items{
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+    display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+    margin: 0 -1.5%;
+}
+
+.services_item{
+	width: 22%;
+    margin: 4% 1.5%;
+	text-align: center;
+}
+
+.services_item_img{
+	width: 100%;
+	line-height: 0;
+	margin-bottom: 25px;
+}
+
+.services_item_img img{
+	max-width: 100%;
+	height: auto;
+}
+
+.services_item_info{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.services_info_title{
+	margin-bottom: 25px;
+}
+
+.services_info_title h3{
+	color: #292f36;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.services_info_text p{
+	font-size: 16px;
+	color: #8d8f92;
+	line-height: 25px;
+}
+
+.features{
+	width: 100%;
+	background: #3a454d;
+}
+
+.features_content{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 6.250em 0; 
+}	
+
+.features_title{
+	margin-bottom: 3.75em;
+}
+
+.features_title h3{
+	position: relative;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 20px;	
+}
+
+.features_title h3:before{
+	content: "";
+    display: block;
+    width: 10px;
+    height: 100%;
+    background: #4e5a62;
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.features_items{
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+    display: flex;
+    margin: 0 -1.5%;
+}
+
+.features_item{
+	width: 30.33333%;
+    margin: 1.5%;
+}
+
+.features_item_img{
+	width: 100%;
+	line-height: 0;
+}
+
+.features_item_img img{
+	max-width: 100%;
+	height: auto;
+}
+
+.features_item_info{
+	width: 100%;
+	padding: 3.125em 0 0;
+}
+
+.features_info_title{
+	margin-bottom: 30px;
+}
+
+.features_info_title h3{
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.features_info_text p{
+	font-size: 16px;
+	color: #dcdfe1;
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -761,6 +761,7 @@ body{
 	font-weight: 500;
 	padding: 10px 17px;
 	color: #8d8f92;
+	cursor: text;
 }
 
 .contact_form_text{
@@ -801,6 +802,7 @@ body{
 	font-weight: 500;
 	padding: 10px 17px;
 	color: #8d8f92;
+	cursor: text;
 }
 
 .contact_form_btn{
@@ -817,6 +819,7 @@ body{
 	padding: 17px 27px;
 	color: #fff;
 	background: #23b7a4;
+	cursor: pointer;
 }
 
 .contact_item_title{
@@ -871,11 +874,15 @@ body{
 
 .footer_container_info{
 	width: 100%;
+	display: -webkit-box;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+    display: flex;
 }
 
 .footer_container_aboutus{
-	float: left;
     width: 50%;
+	padding-top: 10px;
 }
 
 .footer_container_aboutus p{
@@ -884,7 +891,6 @@ body{
 }
 
 .footer_container_contacts{
-	float: right;
     width: 50%;
 }
 
@@ -895,7 +901,6 @@ body{
 .footer_container_contacts_ul li{
 	display: inline-block;
     padding-left: 20px;
-    padding-bottom: 20px;
 }
 
 

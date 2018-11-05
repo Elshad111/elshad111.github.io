@@ -679,11 +679,11 @@ body{
 
 .features_item_info{
 	width: 100%;
-	padding: 3.125em 0 0;
+	padding-top: 3em;
 }
 
 .features_info_title{
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 .features_info_title h3{
@@ -699,18 +699,45 @@ body{
 	line-height: 25px;
 }
 
+.footer{
+	width: 100%;
+	background: #3a454d;
+	color: #fff;
+}
 
+.footer_container{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 2.5em 0;
+}
 
+.footer_container_info{
+	width: 100%;
+}
 
+.footer_container_aboutus{
+	float: left;
+    width: 50%;
+}
 
+.footer_container_aboutus p{
+	font-size: 14px;
+	color: #fff;
+}
 
+.footer_container_contacts{
+	float: right;
+    width: 50%;
+}
 
+.footer_container_contacts_ul{
+	float: right;
+}
 
-
-
-
-
-
+.footer_container_contacts_ul li{
+	display: inline-block;
+    padding-left: 20px;
+}
 
 
 

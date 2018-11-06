@@ -903,8 +903,43 @@ body{
     padding-left: 20px;
 }
 
+.scroll_to_top{
+	border: 1px solid #23b7a4;
+	border-radius: 3px;
+    background: transparent;
+    padding: 5px 7px 7px 7px;
+    float: right;
+    cursor: pointer;
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    z-index: 1000;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
 
+.vis{
+	display: block;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
 
+.scroll_to_top:hover{
+	border: 1px solid #23b7a4;
+}
 
+.social_item_ico{
+	display: block;
+    height: 35px;
+    width: 35px;
+    fill: #23b7a4;
+    opacity: 1;
+}
 
 

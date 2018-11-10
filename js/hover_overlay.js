@@ -14,7 +14,7 @@ $(function(){
 			$(this).find('.team_item_overlay').stop(true,true);
 			$(this).find('.team_item_overlay').animate({
 				'opacity' : 0
-			},300, function(){
+			}, 300, function(){
 				$(this).removeClass('item_overlay_active').removeAttr('style');
 			})
 		});

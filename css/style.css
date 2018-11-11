@@ -357,6 +357,10 @@ body{
 	opacity: .6;
 }
 
+.about_item_social li a img{
+	width: 50px;
+}
+
 .about_item_articles{
 	list-style: none;
     counter-reset: lesson;

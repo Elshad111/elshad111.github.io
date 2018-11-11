@@ -77,6 +77,7 @@ body{
     position: relative;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
 }
 
 .wrapper{
@@ -103,6 +104,7 @@ body{
 	width: 100%;
 	max-width: 1170px;  
     margin: 0 auto;
+	position: relative;
 }
 
 .unselectable{
@@ -126,6 +128,24 @@ body{
 
 .menu_logo  a .logo{
     vertical-align: middle;
+}
+
+.menu_toggle{
+	float: right;
+	display: none;
+}
+
+.menu_toggle_icon{
+	display: block;
+	line-height: 60px;
+}
+
+.menu_icon{
+    height: 35px;
+    width: 35px;
+    fill: #ccc;
+    opacity: 1;
+	vertical-align: middle;
 }
 
 .menu_main{
@@ -173,6 +193,11 @@ body{
 .menu_link_active:hover{
 	border: 2px solid #23b7a4;
 	color: #23b7a4;
+}
+
+.menu_bl{
+	display: block;
+	opacity: 1;
 }
 
 
@@ -1001,7 +1026,7 @@ body{
     position: fixed;
     bottom: 5%;
     right: 3%;
-    z-index: 1000;
+    z-index: 100;
     -webkit-transform: translateY(100px);
     transform: translateY(100px);
     opacity: 0;
@@ -1052,3 +1077,64 @@ body{
 	display: block;
 	opacity: 1;
 }
+
+@media screen and (max-width: 1190px){
+	.menu_container{
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 830px){
+	.menu_toggle{
+		display: block;
+	}
+	
+	.menu_main{
+		display: none;
+		opacity: 0;
+	}
+	
+	.menu_main_show{
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 60px;
+		width: 100%;
+		height: 100%;
+		border-top: 1px solid #333;
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: left;
+		background: #1a1a1a;
+		z-index: 1005;
+		overflow: auto;
+		text-align: center;
+	}
+	
+	.menu_item:nth-child(1){
+		margin: 0 5px;
+	}
+
+	.menu_item:last-child{
+		margin: 0 5px;
+	}
+
+	.menu_item{
+		float: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1302,18 +1302,22 @@ body{
 @media screen and (max-width: 380px){
 	.team_item {
 		width: 100%;
+		margin-top: 15px;
 	}
 	
 	.work_item {
 		width: 100%;
+		margin-top: 15px;
 	}
 	
 	.services_item {
 		width: 100%;
+		margin-top: 15px;
 	}
 	
 	.features_item {
 		width: 100%;
+		margin-top: 15px;
 	}
 	
 }
